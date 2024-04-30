@@ -50,12 +50,15 @@ nav ul li{
     margin: 0 13px;
     cursor: pointer;
 }
-nav ul li a{
+.header nav ul li a{
     text-decoration: none;
     color: black;
     font-size: 0.9rem;
     font-weight: 600;
     cursor: pointer;
+}
+.header nav ul li a:hover{
+    color: red;
 }
 
 .hero{
@@ -127,8 +130,14 @@ span{
     font-weight: 600;
     border: 2px solid white;
     border-radius: 20px; 
+    cursor: pointer;
     /* need to check border  */}
 
+.book-table button:hover
+{
+    background: rgb(43, 43, 43);
+    transition: 0.3s;
+}
 #about{
     width: 100%;
     padding: 50px 0;
@@ -148,6 +157,9 @@ span{
 }
 #about .about-right{
     width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #about .about-right img{
     width: 100%;
@@ -178,7 +190,15 @@ span{
     outline: none;
     color: #383838; 
     letter-spacing: 1px;
+    cursor: pointer;
 }
+
+#about .about-left button:hover{
+    color: white;
+    background: black;
+    transition: 0.3s;
+}
+
 
 #menu-section, #blog{
     width: 100vw;
@@ -245,7 +265,17 @@ span{
     padding: 7px 20px;
     text-decoration: none;
     color: white;
+    border: 2px solid black;
 }
+
+#menu-section .menu-card .menu-text .btn a:hover{
+    background: rgb(154, 152, 152);
+    border: 2px solid black;
+    color: black;
+    transition: 0.3s;
+    
+}
+
 #blog{
     background: #0c0d0c;
     color: #555353;
@@ -260,15 +290,15 @@ span{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
     gap: 50px;
     margin-top: 50px;
     padding: 20px;
     flex-wrap: wrap;
 }
 #blog .row .col{
-    width: 30%;
+    width: 25%;
     background: white;
-    height: auto;
 }
 #blog .row .col div{
     margin: 10px;
@@ -280,7 +310,8 @@ span{
 }
 #blog .row .col img{
     width: 100%;
-    height: 350px;
+    aspect-ratio: 1/1;
+    /* height: 350px; */
 }
 #blog .row .col h3{
     margin: 20px 10px;
@@ -292,6 +323,8 @@ span{
 }
 #blog .row .col a{
     text-decoration: none;
+    color: rgb(154, 149, 149);
+    background: black;
     border: 1px solid rgb(73, 68, 68);
     padding: 10px 20px;
     border-radius: 5px;
@@ -299,11 +332,10 @@ span{
 }
 
 #blog .row .col p a:hover{
-    border: 1px solid #f0a211;
-    color: #383838;
-    transition: 0.5s;
-    background:
-     transparent;
+    border: 1px solid black;
+    background: rgb(161, 161, 161);
+    color: black;
+    transition: 0.3s;
 }
 
 #contact{
@@ -511,6 +543,10 @@ hr{
     nav ul li a{
         font-size: 0.7rem;
     }
+
+    /* nav ul li a:hover{
+        font-size: 8rem;
+    } */
     
     #about{
         padding: 0;
