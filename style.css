@@ -16,7 +16,7 @@ html{
     color: #dbdbdb;
     padding-left: 5vw;
     padding-top: 10px;
-    width: 100vw;
+    /* width: 100vw; */
 }
 header{
     background: black;
@@ -60,7 +60,7 @@ nav ul li{
 
 .hero{
     position: relative;
-    width: 100vw;
+    /* width: 100vw; */
     width: 100%;
 }
 .hero .hero-top-video{
@@ -200,7 +200,7 @@ span{
 
 
 #product-section, #blog{
-    width: 100vw;
+    /* width: 100vw; */
     /* padding: 50px 0; */
     background-color: black;
 }
@@ -343,7 +343,7 @@ span{
 }
 
 #contact{
-    width: 100vw;
+    /* width: 100vw; */
     padding: 50px 0;
     background: url('./images/contact-form.jpeg');
     background-repeat: no-repeat;
@@ -411,7 +411,7 @@ span{
 
 #footer{
     background: #333333;
-    width: 100vw;
+    /* width: 100vw; */
 }
 
 #footer .container {
@@ -630,5 +630,4 @@ hr{
         margin: 0;
         padding: 0;
     }
-
 }
