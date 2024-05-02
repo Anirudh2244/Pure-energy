@@ -143,7 +143,7 @@ span{
 #about .container {
     width: 80%;
     margin: 0 auto;
-    padding: 80px 0;
+    /* padding: 80px 0; */
     display: flex;
     justify-content: space-between;
 }
@@ -180,8 +180,9 @@ span{
 }
 
 #about .about-left button{
-    margin-top: 30px;
+    margin-top: 15px;
     padding: 15px;
+    margin-bottom: 30px;
     font-size: 1rem;
     border: transparent;
     border: 1px solid #ccc;
@@ -200,7 +201,7 @@ span{
 
 #product-section, #blog{
     width: 100vw;
-    padding: 50px 0;
+    /* padding: 50px 0; */
     background-color: black;
 }
 
@@ -208,11 +209,12 @@ span{
     background: black;
 }
 
-#product-section .container-product, #blog .container{
+#product-section .container-product{
     width: 80%;
     margin: 0 auto;
     padding: 60px 10px;
 }
+
 .heading{
     text-align: center;
     font-size: 50px;
@@ -285,6 +287,8 @@ span{
 }
 #blog .container{
     width: 90%;
+    margin: 0 auto;
+    padding-bottom: 30px;
 }
 #blog .row{
     display: flex;
@@ -593,6 +597,11 @@ hr{
         padding: 10px 20px;
         margin: 0;
     } */
+
+    .product-container h2{
+        font-size: 2rem;
+    }
+    
     
     #blog {
         padding-top: 0;
@@ -605,6 +614,7 @@ hr{
     }
     #blog .container h2{
         font-size: 2rem;
+        padding-top: 20px;
     }
     #blog .container .row .col{
         width: 100%;
