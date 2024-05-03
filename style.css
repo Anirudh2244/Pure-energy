@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
+    font-family: "Open Sans", sans-serif;
 }
 body{
     background-color: white;
@@ -109,7 +110,7 @@ nav ul li{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     margin-bottom: 20px;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
 }
 
 span{
@@ -163,19 +164,19 @@ span{
 }
 #about .about-left h1{
     font-size: 3rem;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     margin: 10px 0;
     color: #fff;
 }
 #about .about-left h3{
     font-size: 1.5rem;
-    letter-spacing: 2px;
+    /* letter-spacing: 2px; */
     color: #979797;
 }
 #about .about-left p{
     font-size: 1rem;
-    letter-spacing: 2px;
-    text-align: justify;
+    /* letter-spacing: 2px; */
+    /* text-align: justify; */
     color: #def1d2;
 }
 
@@ -188,7 +189,7 @@ span{
     border: 1px solid #ccc;
     outline: none;
     color: #383838; 
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     cursor: pointer;
 }
 
@@ -630,5 +631,4 @@ hr{
         margin: 0;
         padding: 0;
     }
-
 }
